@@ -1,0 +1,103 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-style: bold !important;
+  color: #1d1f1e !important;
+  text-align: left !important;
+  margin: 1.5em 5px !important;
+  padding: 0.5em 1em !important;
+}
+h1 {
+  font-size:22px;
+line-height:1.4;
+margin-bottom:14px
+}
+h2 {
+  font-size: 20px !important;
+  border-bottom: 1px solid #eee !important;
+}
+h3 {
+  font-size: 18px;
+
+}
+h4 {
+  font-size: 16px;
+}
+strong, b{
+    text-indent:20em;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(9, 72, 189);
+}
+em, i {
+    color: #009688;
+}
+
+hr {
+    border: 1px solid #BF360C;
+    margin: 1.5em auto;
+}
+  p {
+    text-indent:2em;
+    margin: 1.5em 5px !important;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+    padding: 0em 0.1em;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    color: rgb(34, 31, 31);
+}
+blockquote, q {
+    border-left: 4px solid #009688;
+    margin: 1.5em 10px;
+    padding: 0 20px;
+    color: #777;
+    quotes: none;
+    margin-left: 0.2em;
+    padding:0.2em;
+}
+
+table {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+table td,
+table th {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 3px 5px;
+}
+table th {
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+
+/* blockquote 样式 */
+blockquote {
+  display: block;
+  border-left: 8px solid #d0e5f2;
+  padding: 5px 10px;
+  margin: 10px 0;
+  line-height: 1.4;
+  font-size: 100%;
+  background-color: #f1f1f1;
+}
+
+/* code 样式 */
+code {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  padding: 3px 5px;
+  margin: 0 3px;
+}
+pre code {
+  display: block;
+}
+
+/* ul ol 样式 */
+ul, ol {
+  margin: 10px 0 10px 20px;
+}
